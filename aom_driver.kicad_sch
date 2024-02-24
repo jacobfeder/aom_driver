@@ -7,7 +7,7 @@
   (title_block
     (title "AOM driver")
     (date "2023-12-24")
-    (rev "v1")
+    (rev "v2")
     (company "Jacob Feder")
   )
 
@@ -11749,7 +11749,7 @@
     (property "Reference" "FL2" (at 321.31 281.94 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RLP-158" (at 321.31 284.48 0)
+    (property "Value" "RLP-158+" (at 321.31 284.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "RF_Mini-Circuits:Mini-Circuits_GP731_LandPatternPL-176" (at 321.31 279.4 0)
