@@ -1,6 +1,8 @@
 # 2-Tone AOM driver
 This custom acousto-optic modulator (AOM) driver PCB is designed for generating short light pulses with enhanced isolation and power stability compared to traditional AOM configurations.
 
+![AOM PCB rendering](https://github.com/jacobfeder/aom_driver/blob/main/aom_driver.png)
+
 # Background
 When generating light pulses with an AOM, two parameters that you may care about are the isolation and power stability.
 
@@ -52,6 +54,6 @@ The final RF output power of the system is impossible to predict precisely due t
 Feel free to email me if you have any questions at <jacobsfeder@gmail.com>.
 
 # Acknowledgements
-- This project would not have been possilbe without the help of Arron Campi at Gooch and Housego. He graciously provided his time and insight in helping me to understand AOM physics and limitations, as well as suggesting the idea of driving the AOM with multiple frequencies.
+- This project would not have been possible without the help of Arron Campi at Gooch and Housego. He graciously provided his time and insight in helping me to understand AOM physics and limitations, as well as suggesting the idea of driving the AOM with multiple frequencies.
 - Ben Soloway contributed the script that calculates optical isolation, and provided comic relief in addition to being my scientific partner in crime.
 - The Awschalom Lab at UChicago and the NSF provided financial support.
