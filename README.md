@@ -31,8 +31,6 @@ The 2-Tone AOM driver greatly mitigates isolation and power stability issues. Wh
 # Principle of Operation
 The driver consists of four main parts: two nearly-identical frequency synthesis sections, a fast RF switch to select the frequency, and an (off board) RF amplifier. The frequency synthesis sections begin with a voltage-controlled oscillator (VCO) that generates the initial RF signal (CVCO55xx). A fixed attenuator limits the maximum output power (PAT1220-C-x). Next, an amplifier increases the output power (GVA-81). A voltage-variable attenuator (VVA) allows the user to tune the output power of each frequency synthesis channel in real-time using a potentiometer in order to calibrate the system (RVA-3000R). A filter reduces some of the harmonics (RLP-xxx+). An RF switch (M3SWA-2-50DRB+) for each frequency synthesis channel toggles the frequency on/off before the final switch in order to increase isolation. This concludes the frequency synthesis sections. A final RF switch (M3SWA-2-50DRB+) selects the output frequency channel. The AOM driver output is intended to then be fed to an external RF amplifier.
 
-![AOM PCB schematic](https://github.com/jacobfeder/aom_driver/blob/main/schematic.pdf)
-
 # Required Parts
 - The 2-tone AOM driver PCB (see aom_driver.csv for PCB BOM)
 - +-15V DC power supply for the AOM driver PCB, recommend TODO
